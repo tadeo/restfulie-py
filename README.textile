@@ -36,7 +36,7 @@ from restfulie import Restfulie
 >>> r = response.resource()
 >>> print len(r.item)
 2
->>> print len(r.item[0].name)
+>>> print r.item[0].name
 Car
 
 # navigating through hypermedia
